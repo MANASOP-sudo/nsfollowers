@@ -13,7 +13,7 @@ class Ns_Followers:
 
         self.__userid='67211899829' #Enter UserID Here
         self.__username='sad_story_home_bot' #Enter UserName Here
-        self._session='67211899829%3A42IUhPhOpJYnuH%3A13%3AAYfMOOhGF3oQd21fwTQ2tu6pRKtHVPifbcxixmli0Q' #Enter SessionID Here
+        self._session='67211899829%3Aa2qJpy8aXNx7xz%3A17%3AAYd6VMQQtMI6Vc3A1UPitI_fwPxfcE52Q9on-mWYPw; rur="CCO\05467211899829\0541752606627:01f792a35a13e8c208041fcb4f7714e6be8584422922bd9d37d136c7e1e588cde7443d53' #Enter SessionID Here
 
         self.__Pk=self.__userid.encode()+b'*'+str(random.randint(111,999)).encode()
         self.__Ip=os.urandom(8).hex().encode()+b'*'+str(random.randint(111,999)).encode()
